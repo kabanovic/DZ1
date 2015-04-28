@@ -8,8 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextFieldDelegate> {
+ 
 
+    BOOL isHidden;
+ 
+}
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+
+@property (weak, nonatomic) IBOutlet UILabel *labelPlaceHolder;
+
+- (IBAction)tFChanged:(id)sender;
 
 @end
 

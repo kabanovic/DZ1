@@ -14,6 +14,10 @@
 		671698B21AED308D00CF0017 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 671698B11AED308D00CF0017 /* Images.xcassets */; };
 		671698B51AED308D00CF0017 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 671698B31AED308D00CF0017 /* LaunchScreen.xib */; };
 		671698C11AED308D00CF0017 /* DZ1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 671698C01AED308D00CF0017 /* DZ1Tests.m */; };
+		671698CB1AED3D4400CF0017 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 671698CA1AED3D4400CF0017 /* Foundation.framework */; };
+		671698CD1AED3D4F00CF0017 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 671698CC1AED3D4F00CF0017 /* CoreGraphics.framework */; };
+		671698CF1AED3D5A00CF0017 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 671698CE1AED3D5A00CF0017 /* UIKit.framework */; };
+		671698D21AED40EB00CF0017 /* Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 671698D11AED40EB00CF0017 /* Animation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +37,18 @@
 		671698A81AED308D00CF0017 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		671698A91AED308D00CF0017 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		671698AB1AED308D00CF0017 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		671698AC1AED308D00CF0017 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		671698AC1AED308D00CF0017 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
 		671698AF1AED308D00CF0017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		671698B11AED308D00CF0017 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		671698B41AED308D00CF0017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		671698BA1AED308D00CF0017 /* DZ1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZ1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		671698BF1AED308D00CF0017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		671698C01AED308D00CF0017 /* DZ1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZ1Tests.m; sourceTree = "<group>"; };
+		671698CA1AED3D4400CF0017 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		671698CC1AED3D4F00CF0017 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		671698CE1AED3D5A00CF0017 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		671698D01AED40EB00CF0017 /* Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation.h; sourceTree = "<group>"; };
+		671698D11AED40EB00CF0017 /* Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +56,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				671698CF1AED3D5A00CF0017 /* UIKit.framework in Frameworks */,
+				671698CD1AED3D4F00CF0017 /* CoreGraphics.framework in Frameworks */,
+				671698CB1AED3D4400CF0017 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +75,11 @@
 		671698981AED308D00CF0017 = {
 			isa = PBXGroup;
 			children = (
+				671698D01AED40EB00CF0017 /* Animation.h */,
+				671698D11AED40EB00CF0017 /* Animation.m */,
+				671698CE1AED3D5A00CF0017 /* UIKit.framework */,
+				671698CC1AED3D4F00CF0017 /* CoreGraphics.framework */,
+				671698CA1AED3D4400CF0017 /* Foundation.framework */,
 				671698A31AED308D00CF0017 /* DZ1 */,
 				671698BD1AED308D00CF0017 /* DZ1Tests */,
 				671698A21AED308D00CF0017 /* Products */,
@@ -221,6 +238,7 @@
 			files = (
 				671698AD1AED308D00CF0017 /* ViewController.m in Sources */,
 				671698AA1AED308D00CF0017 /* AppDelegate.m in Sources */,
+				671698D21AED40EB00CF0017 /* Animation.m in Sources */,
 				671698A71AED308D00CF0017 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +434,7 @@
 				671698C61AED308D00CF0017 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		671698C71AED308D00CF0017 /* Build configuration list for PBXNativeTarget "DZ1Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +443,7 @@
 				671698C91AED308D00CF0017 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
